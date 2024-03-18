@@ -1,0 +1,118 @@
+
+E:\>dir
+ Volume in drive E is New Volume
+ Volume Serial Number is 6E6E-F957
+
+ Directory of E:\
+
+09-06-2023  22:21            13,585 book.docx
+05-02-2023  21:44    <DIR>          Coke docket
+01-10-2023  09:52    <DIR>          dEMAT 1-10-23
+03-11-2023  00:00    <DIR>          Dev work
+24-07-2023  10:23    <DIR>          Embedded full stack projects
+19-06-2021  22:24            90,557 IMG-20210120-WA0050.jpg
+19-06-2021  22:24            97,825 IMG-20210120-WA0051.jpg
+19-06-2021  22:24           104,222 IMG-20210120-WA0052.jpg
+24-09-2022  22:16    <DIR>          Jaipur
+01-12-2006  23:37           904,704 msdia80.dll
+12-09-2021  19:05    <DIR>          New folder
+08-06-2023  23:43    <DIR>          New folder (2)
+19-02-2021  19:43            23,907 new logics rest 1x1.png
+14-11-2022  09:40    <DIR>          observations and graph ece
+20-08-2023  22:19    <DIR>          PD_Data
+25-09-2022  18:45    <DIR>          Rajeev Avro
+20-02-2021  17:00            15,493 sop,pos 1.png
+26-07-2023  08:41    <DIR>          thonny-4.1.1-windows-portable
+01-03-2023  19:27    <DIR>          yash folder
+17-03-2023  22:22    <DIR>          Yash Related Docs
+               7 File(s)      1,250,293 bytes
+              13 Dir(s)  328,873,058,304 bytes free
+
+E:\>mkdir Ducat
+
+E:\>rem Ducat Ducat_Learning
+
+E:\>ren Ducat Ducat_Learning
+
+E:\>cd Ducat_Learning
+
+E:\Ducat_Learning>mkdir Learning Assignments
+
+E:\Ducat_Learning>cd Assignments
+
+E:\Ducat_Learning\Assignments>mkdir Sprint1 Sprint2
+
+E:\Ducat_Learning\Assignments>cd Sprint1
+
+E:\Ducat_Learning\Assignments\Sprint1>Mkdir Day1 Day2
+
+E:\Ducat_Learning\Assignments\Sprint1>dir
+ Volume in drive E is New Volume
+ Volume Serial Number is 6E6E-F957
+
+ Directory of E:\Ducat_Learning\Assignments\Sprint1
+
+09-03-2024  02:37    <DIR>          .
+09-03-2024  02:37    <DIR>          ..
+09-03-2024  02:37    <DIR>          Day1
+09-03-2024  02:37    <DIR>          Day2
+               0 File(s)              0 bytes
+               4 Dir(s)  328,873,058,304 bytes free
+
+E:\Ducat_Learning\Assignments\Sprint1>cd .\
+
+E:\Ducat_Learning\Assignments\Sprint1>cd .
+
+E:\Ducat_Learning\Assignments\Sprint1>cd ..
+
+E:\Ducat_Learning\Assignments>cd Sprint1
+
+E:\Ducat_Learning\Assignments\Sprint1>cd ..\Sprint2
+
+E:\Ducat_Learning\Assignments\Sprint2>mkdir Day1 Day2
+
+E:\Ducat_Learning\Assignments\Sprint2>dir
+ Volume in drive E is New Volume
+ Volume Serial Number is 6E6E-F957
+
+ Directory of E:\Ducat_Learning\Assignments\Sprint2
+
+09-03-2024  02:39    <DIR>          .
+09-03-2024  02:39    <DIR>          ..
+09-03-2024  02:39    <DIR>          Day1
+09-03-2024  02:39    <DIR>          Day2
+               0 File(s)              0 bytes
+               4 Dir(s)  328,873,058,304 bytes free
+
+E:\Ducat_Learning\Assignments\Sprint2>notepad
+
+E:\Ducat_Learning\Assignments\Sprint2>cd ..\Sprint1.\Day2
+
+E:\Ducat_Learning\Assignments\Sprint1\Day2>mkdir Problem1_Sample_file.txt
+
+E:\Ducat_Learning\Assignments\Sprint1\Day2>rmdir Problem1_Sample_file.txt
+
+E:\Ducat_Learning\Assignments\Sprint1\Day2>dir
+ Volume in drive E is New Volume
+ Volume Serial Number is 6E6E-F957
+
+ Directory of E:\Ducat_Learning\Assignments\Sprint1\Day2
+
+09-03-2024  02:46    <DIR>          .
+09-03-2024  02:46    <DIR>          ..
+09-03-2024  02:42             2,834 CLI_Assignment_Problem2.txt
+               1 File(s)          2,834 bytes
+               2 Dir(s)  328,873,054,208 bytes free
+
+E:\Ducat_Learning\Assignments\Sprint1\Day2>echo Problem1_Sample_file.txt
+Problem1_Sample_file.txt
+
+E:\Ducat_Learning\Assignments\Sprint1\Day2>echo Sample Text>Problem1_Sample_file.txt
+
+E:\Ducat_Learning\Assignments\Sprint1\Day2>echo New text >> Problem1_Sample_file.txt
+
+E:\Ducat_Learning\Assignments\Sprint1\Day2>echo Sampled text >> Problem1_Sample_file.txt
+
+E:\Ducat_Learning\Assignments\Sprint1\Day2>echo Sampled text2 > Problem1_Sample_file.txt
+
+E:\Ducat_Learning\Assignments\Sprint1\Day2>
