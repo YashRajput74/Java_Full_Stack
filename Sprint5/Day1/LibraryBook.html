@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Library Book Request Form</title>
+
+</head>
+
+<body>
+
+    <h2>Library Form</h2>
+    <p>The form is for booking particular slots for books needed by students from Main Library, AKGEC. <br>
+        Fill the form with appropriate details and you will recieve a confirmation mail when your details get verified.
+    </p>
+
+    <form>
+
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your Name" required>
+        <br>
+
+        <label>Student Number:</label>
+        <input type="number" pattern="[0-9]{3}-[0-9]{4}" placeholder="123-4567" required>
+        <br>
+
+        <label>Select Your Gender: </label>
+        <input type="radio" name="gender">
+        <label>Male</label>
+        <input type="radio" name="gender" checked>
+        <label>Female</label>
+        <br>
+
+        <label>Enter college mail:</label>
+        <input type="email" placeholder="namestudentid@akgec.ac.in" required>
+        <br>
+
+        <label>Upload a photo of your ID Card:</label>
+        <input type="file" required>
+        <br>
+
+        <label>Enter Book Name with Author:</label>
+        <input type="text" placeholder="Maths IV-RD Sharma">
+        <br>
+
+        <label>Select your preferred pickup location:</label>
+        <input type="radio" name="location">
+        <label>Hostel</label>
+        <input type="radio" name="location" checked>
+        <label>Main Library</label>
+        <input type="radio" name="location">
+        <label>Departmental Library</label>
+        <input type="radio" name="location">
+        <label>Sutainable Production Center</label>
+        <br>
+
+        <label>Choose the Date for pickup:</label>
+        <input type="date">
+        <br>
+
+        <label>Click to reset:</label>
+        <input type="reset"></input>
+        <br>
+
+        <label>Click to submit:</label>
+        <input type="submit">
+    </form>
+
+</body>
+
+</html>

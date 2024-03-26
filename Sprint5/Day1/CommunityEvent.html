@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Online Registration for a Community Event</title>
+
+</head>
+
+<body>
+
+    <h2>Registration Form</h2>
+    <p>The form is for the registration for the event of Kartavya and Shramdaan by Value Education Cell, AKGEC. <br>
+        The Shramdaan event comprises of all the work related to preparation of land for the event of kartavaya. <br>
+        The Kartavya event comprises of plantation across the campus and adoption of plants by students. <br>
+        The date of the main event will be sent to you on your mails.</p>
+
+    <form>
+
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your Name" required>
+        <br>
+
+        <label>Student Number:</label>
+        <input type="number" pattern="[0-9]{3}-[0-9]{4}" placeholder="123-4567" required>
+        <br>
+
+
+        <label>Select Your Gender: </label>
+        <input type="radio" name="gender">
+        <label>Male</label>
+        <input type="radio" name="gender" checked>
+        <label>Female</label>
+        <br>
+
+        <label>Upload a photo of your ID Card:</label>
+        <input type="file" required>
+        <br>
+
+        <label>Enter college mail:</label>
+        <input type="email" placeholder="namestudentid@akgec.ac.in" required>
+        <br>
+
+        <label>Select the event in which you want to participate:</label>
+        <br>
+        <input type="checkbox">
+        <label>Kartavya</label>
+        <br>
+        <input type="checkbox">
+        <label>Shramdaan</label>
+        <br>
+
+        <label>Click to reset:</label>
+        <input type="reset"></input>
+        <br>
+
+        <label>Click to submit:</label>
+        <input type="submit">
+    </form>
+
+</body>
+
+</html>
