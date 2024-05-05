@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Calculator</title>
+    <style>
+        #mainbox {
+            width: 480px;
+            height: auto;
+            border: none;
+            margin: auto;
+        }
+
+        #mainbox>h1 {
+            text-align: center;
+            font-size: 65px;
+            color: #017F80;
+            margin-bottom: 90px;
+        }
+
+        #mainbox>div {
+            width: 441px;
+            height: 450px;
+            border: none;
+            margin: auto;
+            text-align: center;
+            box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2), 5px 5px 10px rgba(0, 0, 0, 0.2);
+            justify-content: center;
+            padding-top: 70px;
+            display: grid;
+            grid-template-columns: repeat(4, 70px);
+            grid-template-rows: repeat(5, 70px);
+            gap: 7px;
+        }
+
+        #mainbox>div>div {
+            border: none;
+            border-radius: 12px;
+            line-height: 28px;
+            box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.2), 5px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        #mainbox>div>div:nth-child(4n+1) {
+            background-color: black;
+            color: white;
+            border: 1px solid black;
+        }
+
+        #mainbox>div>div:nth-child(1) {
+            grid-area: 1/1/2/5;
+            background-color: white;
+            border: none;
+        }
+
+        #mainbox>div>div:nth-child(16) {
+            background-color: black;
+            color: white;
+            border: 1px solid black;
+        }
+
+        #mainbox>div>div:nth-child(14) {
+            border: 1px solid #FF0000;
+            background-color: #FF0000;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mainbox">
+        <h1>Ducat Calculator</h1>
+        <div>
+            <div></div>
+            <div>
+                <h1>1</h1>
+            </div>
+            <div>
+                <h1>2</h1>
+            </div>
+            <div>
+                <h1>3</h1>
+            </div>
+            <div>
+                <h1>+</h1>
+            </div>
+            <div>
+                <h1>4</h1>
+            </div>
+            <div>
+                <h1>5</h1>
+            </div>
+            <div>
+                <h1>6</h1>
+            </div>
+            <div>
+                <h1>-</h1>
+            </div>
+            <div>
+                <h1>7</h1>
+            </div>
+            <div>
+                <h1>8</h1>
+            </div>
+            <div>
+                <h1>9</h1>
+            </div>
+            <div>
+                <h1>x</h1>
+            </div>
+            <div>
+                <h1>C</h1>
+            </div>
+            <div>
+                <h1>0</h1>
+            </div>
+            <div>
+                <h1>=</h1>
+            </div>
+            <div>
+                <h1>/</h1>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

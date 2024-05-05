@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Grid4</title>
+    <style>
+        #mainbox {
+            width: 840px;
+            height: 550px;
+            border: 1px solid;
+            padding: 125px 185px 150px 185px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(4, 160px);
+            grid-template-rows: repeat(3, 165px);
+            row-gap: 50px;
+            column-gap: 60px;
+        }
+
+        #mainbox>div {
+            background-color: #217867;
+        }
+
+        #mainbox>div:nth-child(2) {
+            grid-area: 1/2/2/4;
+        }
+
+        #mainbox>div:nth-child(4) {
+            grid-area: 2/1/3/3;
+        }
+
+        #mainbox>div:nth-child(9) {
+            grid-area: 3/3/4/5;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mainbox">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</body>
+
+</html>
