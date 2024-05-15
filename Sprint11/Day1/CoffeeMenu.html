@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Menu</title>
+    <style>
+        #mainbox {
+            width: 1000px;
+            height: auto;
+            border: 1px solid;
+            background-color: #F2F1F0;
+            margin: auto;
+            padding: 35px 220px 60px 210px;
+            display: grid;
+            grid-template-columns: repeat(3, 300px);
+            grid-template-rows: repeat(3, 200px);
+            gap: 35px;
+        }
+
+        #mainbox>div {
+            border: none;
+            border-radius: 10px;
+            background-color: white;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2), -5px -5px 5px rgba(0, 0, 0, 0.2);
+            padding: 15px 30px;
+        }
+
+        #mainbox>div>div {
+            display: grid;
+            grid-template-columns:180px 150px;
+        }
+
+        #mainbox>div>div>div {
+            border: none;
+        }
+
+        #mainbox>div>div>div:nth-child(2) {
+            text-align: right;
+            color: #B68835;
+        }
+
+        #mainbox>div>h2 {
+            color: #777777;
+            font-weight: 300;
+            margin-top: 1px;
+        }
+
+        @media all and (min-width:768px) and (max-width:1023px) {
+            #mainbox {
+                display: grid;
+                grid-template-columns: repeat(2, 470px);
+                grid-template-rows: repeat(5, 200px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="mainbox">
+        <div>
+            <div>
+                <h1>Cappuccino</h1>
+                <div>
+                    <h1>$49</h1>
+                </div>
+            </div>
+            <h2>Usage of the Internet is becoming more common due to rapid advance.</h2>
+        </div>
+        <div>
+            <div>
+                <h1>Americano</h1>
+                <div>
+                    <h1>$49</h1>
+                </div>
+            </div>
+            <h2>Usage of the Internet is becoming more common due to rapid advance.</h2>
+        </div>
+        <div>
+            <div>
+                <h1>Espresso</h1>
+                <div>
+                    <h1>$49</h1>
+                </div>
+            </div>
+            <h2>Usage of the Internet is becoming more common due to rapid advance.</h2>
+        </div>
+        <div>
+            <div>
+                <h1>Macchiato</h1>
+                <div>
+                    <h1>$49</h1>
+                </div>
+            </div>
+            <h2>Usage of the Internet is becoming more common due to rapid advance.</h2>
+        </div>
+        <div>
+            <DIV>
+                <h1>Mocha</h1>
+                <div>
+                    <h1>$49</h1>
+                </div>
+            </DIV>
+            <h2>Usage of the Internet is becoming more common due to rapid advance.</h2>
+        </div>
+        <div>
+            <div>
+                <h1>Coffee Latte</h1>
+                <div>
+                    <h1>$49</h1>
+                </div>
+            </div>
+            <h2>Usage of the Internet is becoming more common due to rapid advance.</h2>
+        </div>
+        <div>
+            <div>
+                <h1>Piccolo Latte</h1>
+                <div>
+                    <h1>$49</h1>
+                </div>
+            </div>
+            <h2>Usage of the Internet is becoming more common due to rapid advance.</h2>
+        </div>
+        <div>
+            <div>
+                <h1>Ristretto</h1>
+                <div>
+                    <h1>$49</h1>
+                </div>
+            </div>
+            <h2>Usage of the Internet is becoming more common due to rapid advance.</h2>
+        </div>
+        <div>
+            <div>
+                <h1>Affogato</h1>
+                <div>
+                    <h1>$49</h1>
+                </div>
+            </div>
+            <h2>Usage of the Internet is becoming more common due to rapid advance.</h2>
+        </div>
+    </div>
+</body>
+
+</html>
